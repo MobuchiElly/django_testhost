@@ -1,0 +1,14 @@
+{% extends "template.html" %}
+{% load static %}
+{% block title %}Welcome Page{% endblock %}
+
+<link rel="stylesheet" href="{% static 'global.css' %}" >
+
+{% block content %}
+{% if name  %}
+    <h1>Hello {{name}}</h1>
+{% else %}
+    <h1>Hello User</h1>
+{% endif %}
+<a href="/home">Visit the Home Page</a>
+{% endblock %}

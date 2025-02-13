@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="{% static 'navbar.css' %}">
+</head>
+<body>
+    <nav class="nav-wrapper">
+        <h1 class="nav heading">Django Web</h1>
+        <div class="nav ul">
+            <span class="nav links">HOME</span> 
+            <span class="nav links">{{me}}</span> 
+            <span class="nav links">ABOUT</span> 
+            <span class="nav links">{{sponsor}}</span>
+        </div>
+    </nav>
+</body>
+</html>

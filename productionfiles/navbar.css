@@ -1,0 +1,22 @@
+.nav-wrapper{
+ background-color: blueviolet;
+ color: white;
+ padding: 1.5rem  2rem;
+ padding-bottom: 0.85rem;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+.nav.heading{
+    text-align: center;
+    font-size: 1.2rem;
+}
+.nav.ul{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.nav.links{
+    color: aliceblue;
+    font-size: 0.65rem;
+}
