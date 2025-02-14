@@ -85,7 +85,6 @@ DATABASES = {
         'PORT': '12367'
     }
 }
-STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
 # Password validation
@@ -126,10 +125,11 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'productionfiles')
 STATIC_URL = 'static/'
 
 STATICFILES_DIRS=[
-    os.path.join(BASE_DIR, 'globalstaticfiles')
+    os.path.join(BASE_DIR, 'globalstaticfiles'),
+    os.path.join(BASE_DIR, 'crm_webapp/static')
 ]
 
-
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.1/ref/settings/#default-auto-field
