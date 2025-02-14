@@ -1,6 +1,6 @@
 asgiref==3.7.2
 distlib==0.3.8
-Django==4.2.19
+Django==5.0.3
 filelock==3.13.1
 pbr==6.0.0
 platformdirs==4.2.0
@@ -13,3 +13,4 @@ virtualenv==20.25.1
 virtualenv-clone==0.5.7
 virtualenvwrapper==6.1.0
 virtualenvwrapper-win==1.2.7
+whitenoise==6.9.0
