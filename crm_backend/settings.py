@@ -85,6 +85,7 @@ DATABASES = {
         'PORT': '12367'
     }
 }
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 
 # Password validation
